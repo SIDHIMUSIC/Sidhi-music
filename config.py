@@ -22,7 +22,7 @@ PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002137616770"))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7129262488"))
@@ -42,7 +42,7 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SIDHI_MUSIC")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SIDHI_MUSIC/10")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SIDHI_SUPPORT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -89,7 +89,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/acb6c14c0364c0c78f791.jpg"
+    "START_IMG_URL", "https://envs.sh/YjF.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://envs.sh/_n8.jpg"

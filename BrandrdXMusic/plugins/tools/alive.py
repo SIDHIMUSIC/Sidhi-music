@@ -28,7 +28,7 @@ async def start(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+                        "❍ ᴄʟᴏsᴇ ❍", callback_data="close"
                     )
                 ],
             ]
